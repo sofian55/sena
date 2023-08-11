@@ -33,8 +33,8 @@ p{
     text-align: justify;
 }
 .img-cont{
-    width: 150px;
-    float:left;
+    width: 280px;
+    float:right;
     padding: 20px;
     position: relative;
     border-radius:15px;
@@ -93,6 +93,13 @@ estilo formulario basico
     font: bold 14px sans-serif;
     text-align: center;
 }
+.campo:valid + .icon  {
+    color: green;
+  }
+  .campo:invalid + .icon {
+    color: rgb(227, 14, 14);
+  }
+
 
 .entrada {
     text-align: left;
